@@ -67,12 +67,8 @@ const TasksBox = ({ events, setEvents, currentEvent, setCurrentEvent }) => {
   return (
     <div className="task-box">
       <h1 className="task-box-title">All Tasks</h1>
-<<<<<<< HEAD
-
-=======
       {/* <div className="buttons-container">
        */}
->>>>>>> 4670601 (KAnban app)
       <Button
         negative
         onClick={() => setShowConfirmation(true)}
