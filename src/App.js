@@ -63,6 +63,7 @@ function App() {
     }
   }, [events]);
 
+  //Routing to navigate between Home, About and Contact us Pages
   return (
     <Router>
       <div className="App">
