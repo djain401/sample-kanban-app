@@ -5,6 +5,32 @@ import { DragDropContext } from "react-beautiful-dnd";
 import AddTaskForm from "./AddTaskForm";
 import { Button, Confirm } from "semantic-ui-react";
 
+// const defaultEvent = {
+//   title: "placeholder",
+//   id: 0,
+//   "To-do": [
+//     {
+//       taskDetails: "Sample discription",
+//       assignee: "john.doe@fake.com",
+//       storyPoints: 3,
+//     },
+//   ],
+//   "In-Progress": [
+//     {
+//       taskDetails: "Sample discription",
+//       assignee: "john.doe@fake.com",
+//       storyPoints: 3,
+//     },
+//   ],
+//   Completed: [
+//     {
+//       taskDetails: "Sample discription",
+//       assignee: "john.doe@fake.com",
+//       storyPoints: 3,
+//     },
+//   ],
+// };
+
 const TasksBox = ({ events, setEvents, currentEvent, setCurrentEvent }) => {
   const stages = ["To-do", "In-Progress", "Completed"];
   const [showConfirmation, setShowConfirmation] = useState(false);
@@ -41,7 +67,12 @@ const TasksBox = ({ events, setEvents, currentEvent, setCurrentEvent }) => {
   return (
     <div className="task-box">
       <h1 className="task-box-title">All Tasks</h1>
+<<<<<<< HEAD
 
+=======
+      {/* <div className="buttons-container">
+       */}
+>>>>>>> 4670601 (KAnban app)
       <Button
         negative
         onClick={() => setShowConfirmation(true)}

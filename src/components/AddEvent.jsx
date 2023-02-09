@@ -20,7 +20,7 @@ const AddEvent = ({ onAddEvent }) => {
     setShowAddForm(!showAddForm);
   };
   return (
-    // Button with a '+' icon to display add event form
+    // Button with a '+' sign to display add event form
     <div>
       <Button icon onClick={handleClick}>
         <Icon name="plus square outline"></Icon>

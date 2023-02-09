@@ -1,4 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4670601 (KAnban app)
 import "../App.css";
 import AddEvent from "./AddEvent";
 import EventList from "./EventList";
@@ -18,7 +22,6 @@ const Home = ({ events, setEvents, currentEvent, setCurrentEvent }) => {
     setEvents([...events, newEvent]);
     setCurrentEvent(newEvent);
   };
-
   return (
     <div className="app-container">
       <div className="event-box">
@@ -30,7 +33,10 @@ const Home = ({ events, setEvents, currentEvent, setCurrentEvent }) => {
           setCurrentEvent={setCurrentEvent}
         />
       </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4670601 (KAnban app)
       <div className="task-box-container">
         <TasksBox
           events={events}
