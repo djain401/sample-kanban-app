@@ -1,5 +1,0 @@
-Task title - text - required ; min length 5
-Task Details - text area - required ; min length 10
-Assignee - text - required ; format email
-Due date - Date - required
-Story points - number - required

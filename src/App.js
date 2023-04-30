@@ -51,7 +51,6 @@ function App() {
 
   useEffect(() => {
     try {
-      console.log(events);
 
       localStorage.setItem("events", JSON.stringify(events));
 

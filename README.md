@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Sample Kanban App
+
+This repository showcases a Kanban app built with ReactJS and Semantic UI, which allows users to organize their workflow with a visual board.
+The app is designed with a user-friendly interface and includes drag-and-drop functionality for easy movement of tasks between columns.
+Users can create new tasks, assign them to team members, add story points, and set due dates.
+The app allows management of multiple projects simultaneously.
+The code is well-organized and documented, making it easy for developers to modify and customize the app to fit their needs.
+
+## Features
+
+- Customizable board layout that allows users to customize the number of columns, column names, and color schemes to fit their workflow.
+- Manage multiple projects and easily switch between them
+- Customizable card templates that allows user to create custom card templates with predefined fields for better consistency and efficiency.
+
+> All data is currently stored in local storage
+## Usage
+
+- Clone the repository to your machine.
+- Install the npm dependencies using `npm install`.
+- Run the app in development mode using `npm start`. Open http://localhost:3000 to view it in the browser.
+
+For using the application as your demo project
+
+- Update the [About Us](./src/components/About.jsx) and [Contact Us](./src/components/Contact.jsx)
+  components to customise according to your needs.
+
+## Demo
+
+Click below link to see a working preview of the website template.
+
+[Click Here](https://sample-kanban-app.netlify.app/)
+
+> This project is just for demo and not fit for use in producion.
+
+## Backlog
+
+The project is currently just a minimum viable product
+and needs below features developed to make it
+useful for real-world use-cases.
+
+- [ ] Backend app: Ability to submit and store tasks in a database for persistence.
+- [ ] Calendar view: Include a calendar view that shows all tasks with their due dates, allowing users to easily plan their schedule.
+- [ ] Task labels: Allow users to label tasks with custom tags or icons for better organization and categorization.
+- [ ]  Attachments: Let users attach files or links to tasks, such as documents, images, or web pages, for easy reference.
+- [ ] Task automation: Enable users to set up automation rules that automatically move tasks between columns based on predefined criteria.
+- [ ] Notifications: Send notifications to users when a task is due, assigned, or updated, to ensure nothing falls through the cracks.
+- [ ] Task history: Keep a history of all changes made to a task, including who made the changes and when, for better accountability and transparency.
+- [ ] Time tracking: Allow users to track the time spent on each task and generate reports based on the data.
+- [ ] Integration with third-party apps: Integrate the Kanban app with other tools, such as email, chat, or project management software, for seamless workflow.
+
+## Acknowledgements
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
