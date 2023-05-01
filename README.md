@@ -13,11 +13,12 @@ The code is well-organized and documented, making it easy for developers to modi
 - Customizable card templates that allows user to create custom card templates with predefined fields for better consistency and efficiency.
 
 > All data is currently stored in local storage
+>
 ## Usage
 
 - Clone the repository to your machine.
 - Install the npm dependencies using `npm install`.
-- Run the app in development mode using `npm start`. Open http://localhost:3000 to view it in the browser.
+- Run the app in development mode using `npm start`. Open <http://localhost:3000> to view it in the browser.
 
 For using the application as your demo project
 
